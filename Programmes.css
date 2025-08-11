@@ -1,0 +1,190 @@
+/* Style général */
+body {
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+  margin: 0;
+  padding: 0;
+  color: #333;
+  background-color: #ffffff;
+  font-size: larger;
+  text-align: justify;
+}
+
+/* Barre de navigation */
+
+
+header {
+  background-color: #cb3838;
+  color: #fff;  }
+
+    
+  nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+}
+
+.logo img {
+  width: 50px;
+  height: 50px;
+  margin-right: 10px;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 25px;
+  margin: 0;
+  padding: 0;
+}
+
+.nav-links a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 1rem;
+
+}
+
+.nav-links a:hover {
+  color: #ffd1d1;
+  text-decoration: underline;
+}
+
+
+header h1 {
+  margin: 0;
+  font-size: 28px;
+}
+
+/* Section principale */
+main {
+  max-width: 1000px;  
+  margin: 15px auto; 
+  
+}
+
+/* Titre de section */
+h2 {
+  color: #b30000;
+  border-bottom: 2px solid #b30000;
+  padding-bottom: 5px;
+  margin-bottom: 20px;
+}
+
+/* Table style */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 30px;
+  background-color: white;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+th, td {
+  padding: 12px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+
+th {
+  background-color: #b30000;
+  color: white;
+}
+
+tr:hover {
+  background-color: #f1f1f1;
+}
+
+/* Boutons */
+button {
+  background-color: #cb3838;
+  color: white;
+  font-weight:bold;
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  border: none;
+  padding: 8px 15px;
+  cursor: pointer;
+  border-radius: 4px;
+  font-size: 14px;
+  width: 200px;
+  height:50px;
+  margin: auto;
+}
+
+button:hover {
+  background-color: #990000;
+}
+
+/* Liens */
+a {
+  color: #b30000;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+#formProgramme{
+
+display: flex;
+flex-direction: column;
+gap: 18px;
+
+}
+
+.forme{
+
+    padding: 20px;
+    border:solid 5px #dea1b0;
+}
+
+/* Conteneur des programmes */
+#programmes {
+    max-width: 800px;
+    margin: 0 auto 60px auto;
+}
+
+/* Chaque programme */
+.programme {
+    background-color: white;
+    border-radius: 8px;
+    padding: 20px 25px;
+    box-shadow: 0 2px 7px rgba(0,0,0,0.1);
+    margin-bottom: 25px;
+    transition: box-shadow 0.3s ease;
+}
+
+.programme:hover {
+    box-shadow: 0 5px 15px rgba(0,0,0,0.15);
+}
+
+.programme h3 {
+    margin-top: 0;
+    margin-bottom: 10px;
+    color: #b30000;
+}
+
+.programme p {
+    margin: 8px 0;
+    font-size: 1rem;
+    line-height: 1.4;
+}
+
+.programme p strong {
+    color: #800000;
+}
+
+/* Ligne de séparation (tu peux garder ou supprimer <hr>) */
+hr {
+    border: none;
+    height: 1px;
+    background-color: #ddd;
+    margin: 15px 0;
+}

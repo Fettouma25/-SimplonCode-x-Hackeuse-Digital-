@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Programmes - SimplonCode</title>
+    <link rel="stylesheet" href="Programmes.css">
+</head> <!-- fermeture du head -->
+<body>
+    <!-- Barre de navigation -->
+    <header>
+        <nav>
+            <div class="logo">
+                <img src="Capture.PNG" alt="Logo SimplonCode" />
+                <span>SimplonCode x Hackeuse Digital</span>
+            </div>
+            <ul class="nav-links">
+                <li><a href="index.html">🏠 Accueil</a></li>
+                <li><a href="programmes.html">📚 Programmes</a></li>
+                <li><a href="contact.html">✉️ Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <h1>Nos Programmes</h1>
+
+        <!-- Formulaire d'ajout -->
+        <h2>Ajouter un programme</h2>
+        <form id="formProgramme">
+            <input class="forme" type="text" id="titre" placeholder="Titre du programme" required>
+            <textarea class="forme" id="description" placeholder="Description" required></textarea>
+            <input class="forme" type="text" id="duree" placeholder="Durée (ex: 3 mois)" required>
+            <input class="forme" type="text" id="competences" placeholder="Compétences (séparées par des virgules)" required>
+            <button type="submit">Ajouter</button>
+        </form>
+    </main>
+
+    <!-- Liste des programmes -->
+    <div id="programmes">      
+
+    </div>
+
+    <!-- Axios -->
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <!-- Script -->
+    <script src="programmes.js"></script>
+</body>
+</html>
+
+
+  
+
+    
