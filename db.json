@@ -1,26 +1,6 @@
 {
   "programmes": [
     {
-      "id": "304a",
-      "titre": "Développeur Web",
-      "description": "Toutes les clés du front-end et du back-end pour apprendre à coder et devenir développeur junior\n\nAu Programme:\nDéveloppement front-end des interfaces utilisateur\nImplémentation back-end des fonctionnalités serveur et de la gestion des bases de données\nGestion de projet en méthode agile\nConformité réglementaire, qualité et sécurité",
-      "duree": "5 mois",
-      "competences": [
-        "Maîtrise des langages de programmation",
-        "Gestion des bases de données"
-      ]
-    },
-    {
-      "id": "c1f2",
-      "titre": "Développeur Mobile",
-      "description": "Le code vous passionne, vous souhaitez en faire votre métier ? Formez vous avec Simplon et devenez Développeur Mobile\n\nAu Programme:\nConception et maquettage d’une application mobile\nConception et développement d’une application mobile interactive en Flutter, avec manipulation avancée de Dart\nCréer et consommer d'une API REST securisé\nConception et mise en œuvre d’une architecture full-stack pour une application mobile Flutter avec un backend REST API\nConcevoir et piloter le développement d'applications Mobile en participant à la mise en oeuvre des pipelines CI/CD",
-      "duree": "5 mois",
-      "competences": [
-        "Développement Front‑End d’applications mobiles sécurisées",
-        "Développement Back‑End"
-      ]
-    },
-    {
       "id": "2789",
       "titre": "Développeur DevOps",
       "description": "Développez des applications et apprenez à les faire évoluer en continu dans un environnement agile grâce à la spécialisation DevOps.\n\nAu Programme:\nConception et développement d’applications sécurisées\nDéploiement d’une application\nCycle de vie d’une application pour maintenir la qualité et la performance\nMise en place de méthodes d’amélioration continue\nPratiques DevOps au sein d’une organisation agile",
@@ -36,9 +16,17 @@
       "description": "Introduction à la formation\n\nDurant les premières semaines, vous allez : \n\nDécouvrir les grandes lignes de votre futur métier\nExpérimenter la pédagogie active de Simplon\nAcquérir rapidement une vision claire des compétences à maîtriser\nComprendre les critères d’évaluation menant à la certification finale",
       "duree": "6 mois",
       "competences": [
-        "Exploitation d’une base de données" ,
-      "Développer un programme d’intelligence artificielle ",
+        "Exploitation d’une base de données",
+        "Développer un programme d’intelligence artificielle ",
         "Développer la gestion des données analytiques d’un projet d’application"
       ]
-    }]
+    },
+    {
+      "id": "b3d0",
+      "titre": "Développement Mobile – Simplon",
+      "description": "TEST",
+      "duree": "3mois",
+      "competences": "Java, React "
+    }
+  ]
 }

@@ -119,8 +119,7 @@ header {
 
     label{
 
-      font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-      
+      font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; 
       
     }
 
@@ -128,6 +127,7 @@ header {
     flex-direction: row-reverse;
     align-items: center;
     gap:30px;}
+
 
     .log img{
       width:120px;
@@ -145,3 +145,25 @@ header {
       border-radius: 15px;
       margin-left:50px;
     }
+
+    @media (max-width: 900px) {
+  nav {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+
+  .Section {
+    flex-direction: column; 
+    gap: 40px;
+    padding: 20px;
+   
+    
+  }
+
+   .MyFormulaire {
+    width: 80%;
+  }
+
+  
+}

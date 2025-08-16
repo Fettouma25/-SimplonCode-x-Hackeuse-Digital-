@@ -3,7 +3,7 @@ const programmesDiv = document.getElementById("programmes");
 const form = document.getElementById("formProgramme");
 const API_URL = "http://localhost:4000/programmes"; // JSON Server
 
-// Charger les programmes existants
+// Charger les programmes existants` `
 axios.get(API_URL)
   .then(res => {
     res.data.forEach(prog => afficherProgramme(prog));
@@ -18,6 +18,8 @@ function afficherProgramme(prog) {
     <p>${prog.description}</p>
     <p><strong>Durée:</strong> ${prog.duree}</p>
     <p><strong>Compétences:</strong> ${prog.competences}</p>
+   
+
   `;
   programmesDiv.append(div);
 }
@@ -39,5 +41,20 @@ form.addEventListener("submit", function(e) {
       form.reset();
     });
 });
+
+
+// ` ` 
+
+
+
+
+
+
+  
+
+ 
+
+
+
 
 

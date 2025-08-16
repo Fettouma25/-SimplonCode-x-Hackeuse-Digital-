@@ -7,7 +7,7 @@ body {
   background-color: #ebdddd;
   font-size: larger;
   text-align: left;
- text-align: justify;
+  text-align: justify;
 }
 
 /* Barre de navigation */
@@ -46,7 +46,7 @@ nav {
   color: white;
   text-decoration: none;
   font-weight: bold;
-  font-size: 1rem;
+  font-size: 16px;
   transition: color 0.3s ease;
 }
 
@@ -60,7 +60,6 @@ nav {
   display: flex;
   padding: 20px;
   gap: 40px;
-  flex-wrap: wrap;
   align-items: center;
   justify-content: center;
 }
@@ -81,7 +80,7 @@ nav {
   gap: 30px;
   padding: 20px 40px;
   max-width: 900px;
-  margin: 0 auto 40px auto;
+  margin: 0 auto 40px;
   align-items: center;
   border-radius: 8px;
   background-color: #f9f9f9;
@@ -118,14 +117,9 @@ nav {
 .Val {
   font-size: 18px;
   list-style: none;
-   padding: 0; 
-  /* margin-right: 100px;  */
   text-align: justify; 
 }
 
-.texte-detail.Valeur{
-  display:flex;
-}
 
 .Val li {
   margin-bottom: 8px;
@@ -148,7 +142,7 @@ nav {
 
 .arguments li {
   margin: 10px 0;
-  font-size: 1.1rem;
+  font-size: 16px;
 }
 
 /* Pied de page */
@@ -172,16 +166,6 @@ footer {
     text-align: center;
   }
 
-  .image-gauche,
-  .image-detail {
-    margin-bottom: 20px;
-    max-width: 80%;
-  }
-
-  .texte-presentation,
-  .texte-detail {
-    max-width: 100%;
-  }
 }
 
 
